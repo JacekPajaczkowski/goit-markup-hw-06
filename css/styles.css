@@ -754,3 +754,5 @@ p {
 }
 .input{height: 40px;
 margin-top: 4px;}
+.newsletter{display: flex;
+}
