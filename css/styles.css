@@ -751,8 +751,19 @@ p {
   resize: none;
   padding-top: 1rem;
   padding-left: 1rem;
+  border: 1px solid rgba(175, 177, 184, 1);
+  border-radius: 4px;
 }
-.input{height: 40px;
-margin-top: 4px;}
-.newsletter{display: flex;
+.textarea:focus{border: 1px solid #2196f3;}
+.input {
+  height: 40px;
+  margin-top: 4px;
+  border: 1px solid rgba(175, 177, 184, 1);
+  border-radius: 4px;
+}
+.input:focus{
+  border: 1px solid #2196f3;
+}
+.newsletter {
+  display: flex;
 }
