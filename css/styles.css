@@ -753,13 +753,20 @@ p {
   padding-left: 1rem;
   border: 1px solid rgba(175, 177, 184, 1);
   border-radius: 4px;
+  transition-property: fill, border, background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .textarea:focus{border: 1px solid #2196f3;}
 .input {
   height: 40px;
   margin-top: 4px;
+  margin-bottom: 10px;
   border: 1px solid rgba(175, 177, 184, 1);
   border-radius: 4px;
+  transition-property: fill, border, background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .input:focus{
   border: 1px solid #2196f3;
