@@ -741,6 +741,7 @@ p {
   font-size: 20px;
   font-weight: 700;
   color: #000;
+  position: relative;
 }
 .form1-title{
   text-align: center;
@@ -776,7 +777,8 @@ p {
   outline: none;
 }
 .input {
-  height: 40px;
+    height: 40px;
+  width: 448px;
   margin-top: 4px;
   margin-bottom: 10px;
   padding-left: 42px;
@@ -817,6 +819,7 @@ p {
 .label1{
   font-size: 12px;
   font-weight: 400;
+  
 }
 .button-footer {
   background: var(--brand-color);
@@ -843,15 +846,18 @@ p {
 .imie{
   position: absolute;
   top: 107px;
-  left: 55px;
+ left: 15px;
 }
 .telefon{
   position: absolute;
   top: 174.26px;
-  left: 54.27px;
-}
+  left: 14.27px;
+  }
 .email{
   position: absolute;
   top: 243px;
-  left: 53.5px;
+  left: 13.5px;
+}
+.form1 label:focus-within svg {
+  fill: var(--brand-color);
 }
