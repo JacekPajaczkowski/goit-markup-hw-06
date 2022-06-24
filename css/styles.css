@@ -770,7 +770,10 @@ p {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.textarea:focus{border: 1px solid #2196f3;}
+.textarea:focus{
+  border: 1px solid #2196f3;
+  outline: none;
+}
 .input {
   height: 40px;
   margin-top: 4px;
@@ -783,6 +786,7 @@ p {
 }
 .input:focus{
   border: 1px solid #2196f3;
+  outline: none;
 }
 .newsletter {
   display: flex;
