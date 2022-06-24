@@ -766,11 +766,12 @@ p {
   padding-left: 1rem;
   border: 1px solid rgba(175, 177, 184, 1);
   border-radius: 4px;
-  transition-property: fill, border, background-color;
+  transition-property: border;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.textarea:focus{
+.textarea:focus,
+.textarea:hover{
   border: 1px solid #2196f3;
   outline: none;
 }
@@ -778,14 +779,17 @@ p {
   height: 40px;
   margin-top: 4px;
   margin-bottom: 10px;
+  padding-left: 42px;
   border: 1px solid rgba(175, 177, 184, 1);
   border-radius: 4px;
-  transition-property: fill, border, background-color;
+  transition-property: fill, border;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.input:focus{
+.input:focus,
+.input:hover{
   border: 1px solid #2196f3;
+  fill: var(--brand-color);
   outline: none;
 }
 .newsletter {
@@ -813,4 +817,41 @@ p {
 .label1{
   font-size: 12px;
   font-weight: 400;
+}
+.button-footer {
+  background: var(--brand-color);
+
+  cursor: pointer;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  color: var(--white);
+  border-radius: 4px;
+  border-style: none;
+  height: 50px;
+  width: 200px;
+  margin-top: 30px;
+}
+.send{
+  fill: #fff;
+}
+.imie{
+  position: absolute;
+  top: 107px;
+  left: 55px;
+}
+.telefon{
+  position: absolute;
+  top: 174.26px;
+  left: 54.27px;
+}
+.email{
+  position: absolute;
+  top: 243px;
+  left: 53.5px;
 }

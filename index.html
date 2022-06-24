@@ -395,7 +395,11 @@
         ZAPISZ SIĘ DO NEWSLETTERA
         <form class="form" action="javascript:void(0);">
           <input class="input0" id="email" name="email" placeholder="E-mail" />
-          <button type="submit">Zapisz się</button>
+          <button class="button-footer" type="submit">
+            Zapisz się<svg class="send" height="24" width="24">
+              <use href="./images/icons.svg#send"></use>
+            </svg>
+          </button>
         </form>
       </div>
     </footer>
@@ -403,13 +407,30 @@
       <div class="modal">
         <button type="button" class="close-btn" data-modal-close>X</button>
         <form class="form1" action="javascript:void(0);">
-          <span class="form1-title">Zostaw swoje dane w formularzu poniżej</span>
-          <label class="label1" for="imie">Imie</label>
-          <input class="input" id="imie" name="imie" />
-          <label class="label1" for="telefon">Telefon</label>
-          <input class="input" id="telefon" name="telefon" />
-          <label class="label1" for="email">Email</label>
-          <input class="input" id="email" name="email" />
+          <span class="form1-title"
+            >Zostaw swoje dane w formularzu poniżej</span
+          >
+          <label class="label1" for="imie"
+            ><svg class="imie" height="12" width="12">
+              <use href="./images/icons.svg#imie"></use>
+            </svg>
+            Imie
+          </label>
+          <input class="input" id="imie" name="imie" required />
+          <label class="label1" for="telefon"
+            ><svg class="telefon" height="13" width="13">
+              <use href="./images/icons.svg#telefon"></use>
+            </svg>
+            Telefon
+          </label>
+          <input class="input" id="telefon" name="telefon" required />
+          <label class="label1" for="email"
+            ><svg class="email" height="12" width="15">
+              <use href="./images/icons.svg#mail"></use>
+            </svg>
+            Email
+          </label>
+          <input class="input" id="email" name="email" required />
           <label class="label1" for="komentarz">Komentarz</label>
           <textarea
             class="textarea"
@@ -419,10 +440,12 @@
             width="448px"
             height="120px"
           ></textarea>
-        </form>
-        <form class="form2" action="javascript:void(0);" id="id-checkbox">
-          <input id="regulamin" name="regulamin" type="checkbox" /><label
-            for="regulamin"
+          <input
+            id="regulamin"
+            name="regulamin"
+            type="checkbox"
+            required
+          /><label for="regulamin"
             >Oświadczam iż akceptuję <a href="#">Regulamin</a> i
             <a href="#">Politykę Prywatności</a></label
           >
