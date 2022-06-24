@@ -394,7 +394,7 @@
       <div class="newsletter">
         ZAPISZ SIĘ DO NEWSLETTERA
         <form class="form" action="javascript:void(0);">
-          <input class="input0" id="email" name="email" placeholder="E-mail" />
+          <input class="input0" id="email" name="email" placeholder="E-mail" required />
           <button class="button-footer" type="submit">
             Zapisz się<svg class="send" height="24" width="24">
               <use href="./images/icons.svg#send"></use>
@@ -440,13 +440,13 @@
             width="448px"
             height="120px"
           ></textarea>
-          <input
+          <label class="label2" for="regulamin"
+            ><input
             id="regulamin"
             name="regulamin"
             type="checkbox"
             required
-          /><label for="regulamin"
-            >Oświadczam iż akceptuję <a href="#">Regulamin</a> i
+          />Oświadczam iż akceptuję <a href="#">Regulamin</a> i
             <a href="#">Politykę Prywatności</a></label
           >
           <button class="form2-button" type="submit">Wyślij</button>
