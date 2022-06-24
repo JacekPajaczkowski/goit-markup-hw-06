@@ -864,12 +864,25 @@ p {
   fill: var(--brand-color);
 }
 .label2{
+  display: flex;
   font-size: 14px;
   font-weight: 400;
   color: #757575;
-  display: block;
   margin-top: 20px;
   margin-left: 15px;
+}
+.label2::before{
+  display: block;
+  content: "";
+  width: 16px;
+  height: 16px;
+  border: 1px solid #000;
+  border-radius: 4px;
+  }
+.input1:checked + .label2::before{
+background-color: var(--brand-color);
+border: none;
+background-image: url(../images/vector.svg);
 }
 .input0{
   width: 358px;
