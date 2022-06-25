@@ -890,6 +890,9 @@ align-items: center;
   outline: 1px solid #000;
   border-radius: 4px;
   margin-right: 8px;
+  transition-property: background-color, border;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
 .input1:checked + .label2::before{
 background-color: var(--brand-color);
