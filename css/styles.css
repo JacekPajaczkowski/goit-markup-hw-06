@@ -875,7 +875,7 @@ align-items: center;
 }
 .label2{
   display: flex;
-  font-size: 14px;
+    font-size: 14px;
   font-weight: 400;
   color: #757575;
   margin-top: 20px;
@@ -888,6 +888,7 @@ align-items: center;
   height: 16px;
   border: 1px solid #000;
   border-radius: 4px;
+  margin-right: 8px;
   }
 .input1:checked + .label2::before{
 background-color: var(--brand-color);
