@@ -833,7 +833,9 @@ p {
   background: var(--brand-color);
 
   cursor: pointer;
-
+display: flex;
+justify-content: center;
+align-items: center;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -849,13 +851,9 @@ p {
   width: 200px;
   margin-left: 12px;
   }
-  .button-footer-text{
-    margin-top: 10px;
-  }
-.send{
+  .send{
   fill: #fff;
-  margin-top: 13px;
-  margin-left: 24px;
+    margin-left: 24px;
 }
 .imie{
   position: absolute;
