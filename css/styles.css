@@ -880,19 +880,20 @@ align-items: center;
   color: #757575;
   margin-top: 20px;
   margin-left: 15px;
+  cursor: pointer;
 }
 .label2::before{
   display: inline-block;
   content: "";
   width: 16px;
   height: 16px;
-  border: 1px solid #000;
+  outline: 1px solid #000;
   border-radius: 4px;
   margin-right: 8px;
   }
 .input1:checked + .label2::before{
 background-color: var(--brand-color);
-border: none;
+border: 3px solid #fff;
 background-image: url(../images/vector.svg);
 }
 .input0{

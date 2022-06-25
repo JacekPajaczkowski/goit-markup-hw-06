@@ -276,7 +276,7 @@
         </div>
       </section>
     </main>
-    <footer class="footer1">
+     <footer class="footer1">
       <div class="container footer2">
         <div>
           <a class="logo-link1" href="./index.html"
@@ -331,13 +331,18 @@
             </li>
           </ul>
         </div>
-      </div>
-      <div class="newsletter">ZAPISZ SIĘ DO NEWSLETTERA
+      <div class="newsletter">
+        ZAPISZ SIĘ DO NEWSLETTERA
         <form class="form" action="javascript:void(0);">
-        <input class="input0" id="email" name="email" placeholder="E-mail">
-        <button type="submit">Zapisz się</button>
+          <input class="input0" id="email" name="email" placeholder="E-mail" required />
+          <button class="button-footer" type="submit">
+            <span class="button-footer-text">Zapisz się</span><svg class="send" height="24" width="24">
+              <use href="./images/icons.svg#send"></use>
+            </svg>
+          </button>
         </form>
       </div>
-    </footer>
+      </div>
+          </footer>
   </body>
 </html>
