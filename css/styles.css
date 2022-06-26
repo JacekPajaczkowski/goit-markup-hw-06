@@ -117,7 +117,7 @@ body {
   text-decoration: none;
 }
 .list1-link:hover::after,
-.list1-link:focus::after{
+.list1-link:focus::after {
   content: "";
   display: block;
   position: relative;
@@ -177,20 +177,13 @@ body {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.mail:hover {
-  color: var(--brand-color);
-  text-decoration: none;
-  fill: var(--color2, #2196f3);
-}
+.mail:hover,
 .mail:focus {
   color: var(--brand-color);
   text-decoration: none;
   fill: var(--color2, #2196f3);
 }
-.mail1:hover {
-  color: var(--brand-color);
-  text-decoration: none;
-}
+.mail1:hover,
 .mail1:focus {
   color: var(--brand-color);
   text-decoration: none;
@@ -207,25 +200,17 @@ body {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.phone:hover {
-  color: var(--brand-color);
-  text-decoration: none;
-  fill: var(--color2, #2196f3);
-}
+.phone:hover,
 .phone:focus {
   color: var(--brand-color);
   text-decoration: none;
   fill: var(--color2, #2196f3);
 }
-.phone1:hover {
-  color: var(--brand-color);
-  text-decoration: none;
-}
+.phone1:hover,
 .phone1:focus {
   color: var(--brand-color);
   text-decoration: none;
 }
-
 .headline2 {
   color: var(--black);
   text-align: center;
@@ -405,14 +390,7 @@ body {
 .section-buttons li:nth-child(1n + 2) {
   margin-left: 8px;
 }
-.button1-1:hover {
-  color: var(--white);
-  background-color: var(--brand-color);
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
-}
-
+.button1-1:hover,
 .button1-1:focus {
   color: var(--white);
   background-color: var(--brand-color);
@@ -420,7 +398,6 @@ body {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-
 .figcaption1 {
   font-family: "Roboto";
   font-weight: 700;
@@ -469,7 +446,8 @@ body {
   position: relative;
   z-index: 1001;
 }
-.list1-2 li:hover {
+.list1-2 li:hover,
+.list1-2 li:focus {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -483,15 +461,11 @@ body {
   z-index: 1002;
   position: relative;
 }
-.logo-link:hover {
-  color: var(--brand-color);
-}
+.logo-link:hover,
 .logo-link:focus {
   color: var(--brand-color);
 }
-.logo-link1:hover {
-  color: var(--white);
-}
+.logo-link1:hover,
 .logo-link1:focus {
   color: var(--white);
 }
@@ -635,7 +609,7 @@ p {
   fill: #2196f3;
   border: 1px solid #2196f3;
 }
-.active{
+.active {
   text-decoration: none;
   color: var(--brand-color);
 }
@@ -646,7 +620,7 @@ p {
   border-top: 4px solid var(--brand-color);
   border-radius: 2px;
   top: 31px;
-  }
+}
 .is-hidden {
   opacity: 0;
   visibility: hidden;
