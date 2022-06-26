@@ -125,10 +125,6 @@ body {
   border-radius: 2px;
   top: 31px;
 }
-.list1 :focus {
-  color: var(--brand-color);
-  text-decoration: none;
-}
 .button1 {
   background: var(--brand-color);
 
@@ -899,7 +895,8 @@ p {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.input0:focus {
+.input0:focus,
+.input0:hover {
   border: 1px solid var(--brand-color);
   outline: none;
 }
