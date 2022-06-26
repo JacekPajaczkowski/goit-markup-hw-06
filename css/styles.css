@@ -111,11 +111,13 @@ body {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.list1 :hover {
+.list1 :hover,
+.list1 :focus {
   color: var(--brand-color);
   text-decoration: none;
 }
-.list1-link:hover::after{
+.list1-link:hover::after,
+.list1-link:focus::after{
   content: "";
   display: block;
   position: relative;
@@ -726,7 +728,8 @@ p {
   color: #ffffff;
   padding: 49px 24px 49px 24px;
 }
-.list1-2-figure:hover .overlay {
+.list1-2-figure:hover .overlay,
+.list1-2-figure:focus .overlay {
   transform: translatey(0);
 }
 .box-overlay {
